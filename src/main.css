@@ -1,0 +1,115 @@
+:root {
+    --bg-color: #121f3d;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: rgb(255, 22, 22);
+    font-family: 'Roboto' sans-serif;
+    color: white;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.header--list {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    width: 100%;
+    padding: 10px;
+}
+
+.hero--button {
+    border: 1px solid white;
+    color: white;
+    background: transparent;
+    width: 200px;
+    height: 50px;
+}
+
+main {
+    position: absolute;
+    transform: translateY(-20%);
+    top: 50%;
+    width: 100%;
+}
+
+.hero {
+    text-align: center;
+    width: 100%;
+}
+
+.hero--title {
+    font-size: 2.6rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero--time {
+    font-size: 4rem;
+}
+
+.hero--buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hero--buttons button {
+    margin-bottom: 15px;
+    width: 300px;
+    height: 40px;
+    background-color: #e0afd9;
+    border: none;
+}
+
+.hero--buttons button:nth-child(1) {
+    margin-top: 20px;
+}
+
+.hero--buttons button:hover {
+    background-color: #fff;
+    color: rgb(113, 113, 113);
+}
+
+.input1 {
+    width: 300px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.input2 {
+    width: 300px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input:nth-child(1) {
+    margin-top: 20px;
+}
+
+#time {
+    margin-top: 25px;
+}

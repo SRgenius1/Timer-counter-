@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3ef9a7cfc0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./src/main.css">
+    <title>Time counter</title>
+</head>
+<body>
+    <header>
+        <nav class="header--nav">
+            <ul class="header--list">
+                <li>    
+                    <button class="button hero--button" id="chronometter--button"
+                    onclick="executeChronometer()">
+                        <i class="fa-solid fa-clock"></i>
+                    </button>
+                </li>
+                <li>
+                    <button class="button hero--button"
+                    id="timer--button" onclick="executeTimer()">
+                        <i class="fa-solid fa-stopwatch"></i>
+                    </button>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero" id="principal">
+            <h1 class="hero--title">Chrometer</h1>
+            <div class="hero--time">
+                <p id="time">
+                    <span id="minutes">00 :</span>
+                    <span id="seconds">00</span>
+                </p>
+            </div>
+            <div class="hero--buttons">
+                <button class="button header--button" type="button"
+                id="start">
+                    Start
+                </button>
+                <button class="button header--button" type="button"
+                id="stop">
+                    Stop
+                </button>
+                <button class="button header--button" type="button"
+                id="restart">
+                    Restart
+                </button>
+            </div>
+        </section>
+    </main>
+
+    <script src="./src/index.js"></script>
+</body>
+</html>
